@@ -1,2 +1,9 @@
 # Implement a class to hold room information. This should have name and
 # description attributes.
+
+
+class Room:
+    """Holds information about a Room"""
+
+    def __init__(self, name):
+        self.name = name
